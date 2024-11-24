@@ -192,8 +192,12 @@ body {
     
 }
 .product-category {
-    margin-left:25px;
-    margin-top:25px;
+    display:table;
+    margin:0 auto;
+    margin-top:20px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    padding:5px 0;
 }
 /* Add Media Query for responsiveness */
 @media (max-width: 768px) {
